@@ -8,7 +8,7 @@ If anyone could add something that will get this plugin better, please Feel free
 
 #### Dependencies
 
-Except jQuery : https://github.com/jquery/jquery
+jQuery : https://github.com/jquery/jquery
 
 #### Compatibility
 recent browsers such as :
