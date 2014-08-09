@@ -1,7 +1,7 @@
 /**
 * SimpleFileInput 0.1 - A jQuery plugin to customise your file inputs
 * http://github.com/s43/Simple-file-input/
-* Requirements : jQuery 1.3+
+* Requirements : jQuery 1.9+
 * 
 * :: Copyright (c) 2014 SAID ASSEMLAL
 *
@@ -23,7 +23,7 @@
                 width : 300,
                 onInit : function(){},
                 onFileSelect : function(){},
-                onError : function(){},
+                onError : function(){}
             };
 
             /*
