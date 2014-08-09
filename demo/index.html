@@ -1,0 +1,58 @@
+<!DOCTYPE html>  
+<!--[if IE 7 ]> <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]> <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]> <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> 
+<html> 
+<!--<![endif]-->
+	<head>  
+		<!-- Meta -->
+	    <meta charset="utf-8" />
+	    <meta name="keywords" content="input file jquery, custom input file, personalise input file, custom upload" />
+	    <meta name="description" content="Simple Input File - A simple jquery plugin to customise your file inputs" />
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	    <!-- Titre -->
+		<title>Simple Input File - A simple jquery plugin to customise your file inputs</title> 
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="../src/css/jquery.simplefileinput.css">
+		<style type="text/css">
+			body{
+				background: #0FAAD1;
+				color: #ffffff;
+			}
+		</style>
+	</head> 
+	 
+	<body>
+		<!--#include virtual="templates/header.html" --> 
+		<section id="wrapper" class="container">
+			<h1>Simple Input File</h1>
+			<h2>A simple jquery plugin to customise your file inputs</h2>
+			<hr />
+			<h3>Example : Accepts all extensions</h3>
+			<input type="file" id="custom-input-file" />
+			<h3>Example : Accepts PNG, GIF, JPG, JPEG</h3>
+			<input type="file" id="custom-input-file-2" />
+		</section>
+		<!-- ./wrapper -->
+		<!--#include virtual="templates/footer.html" --> 
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script type="text/javascript" src="../src/js/jquery.simplefileinput.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('#custom-input-file').simpleFileInput({
+					placeholder : 'Select your file',
+					buttonText : 'Select'
+				});
+				$('#custom-input-file-2').simpleFileInput({
+					placeholder : 'Select an image',
+					buttonText : 'Select',
+					allowedExts : ['png', 'gif', 'jpg', 'jpeg']
+				});
+
+			})
+		</script>
+		<!-- ./scripts -->
+	</body>  
+</html>
