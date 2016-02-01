@@ -12,10 +12,8 @@
   border: none;
   background: #ffffff;
   font-size: 14px;
-  width: 100%;
   color: #999;
   outline: none;
-  position: relative;
   width: 100%;
   overflow: hidden;
 }
@@ -33,7 +31,6 @@
   position: relative;
   border: 1px dashed #ccc;
   border-right: none;
-  width: 100%;
   float: left;
 }
 .sfi-js .sfi-wrapper .sfi-trigger {
