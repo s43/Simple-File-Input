@@ -78,15 +78,21 @@ Gets called when a file gets selected ( if the file doesn't respect the allowed 
 
 **.sfi-js  :**  
 This class gets added to the *html* tag, and it's used on css for targeting the plugin's dom elements
+
 **.sfi-wrapper  :**  
 This class is used to wrap
+
 **.sfi-filename  :**  
 Set to the element that contains the file name.
+
 **.sfi-trigger  :**  
 Set to file input button, we've separated those to give much more freedom to stylise each part of the input.
+
 **.sfi-error  :**  
 Set to the wrapper when the choosen file has a wrong file type.
+
 **.sfi-valid  :**  
 Set to the wrapper when the a valid file gets selected.
+
 **.sfi-disabled  :**  
 Set to the wrapper when input file has the attribute disabled on it.
